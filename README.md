@@ -2,6 +2,7 @@
 The program finds the prime factorization of a composite number using a multiset implemented from a binary tree. <br>
 Written in C++11 in accordance to the Google C++ Style Guide <br>
 
+NOTE: The code for this project has NOT been uploaded to GitHub publicly, as it was done for my data structures class. This was done to avoid future students from using my code as a violation of academic code conduct.
 
 ## Multiset Implementation 
 The multiset was implemented from a binary tree. Duplicate keys in the tree can exist. 
