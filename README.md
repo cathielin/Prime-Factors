@@ -3,10 +3,10 @@ The program finds the prime factorization of a composite number using a multiset
 Written in C++11 in accordance to the Google C++ Style Guide <br>
 
 
-# Multiset Implementation 
+## Multiset Implementation 
 The multiset was implemented from a binary tree. Duplicate keys in the tree can exist. 
 
-## Multiset Testing 
+### Multiset Testing 
 Tests were ran with Google Test. A total of 18 tests were written to test 9 methods in the multiset. 
 <ul>
   <li>Empty: Tests if the multiset is initially empty</li>
@@ -22,7 +22,7 @@ Ceil(), Min(), Max() respectively with and without removals from the multiset</l
 </ul>
 
 
-# Prime Factors
+## Prime Factors
 The program is also able to provide the biggest and smallest prime factor, as well as the nearest prime factor smaller or greater than a given prime. <br>
 The commands that the program can receive from the command line are listed below <br>
 <ul> 
@@ -31,9 +31,9 @@ The commands that the program can receive from the command line are listed below
   <li><b>min</b>: prints smallest prime factor for that number</li>
   <li><b>near +prime</b>: prints the closest prime factor greater than the given prime number</li>
   <li><b>near -prime</b>: prints the closest prime factor smaller than the given prime number</li>
-  
 </ul>
-# End Lessons / Notable Skills
+
+## End Lessons / Notable Skills
 Showcases ability to: 
 <ul>
   <li>Write clean, well-documented industry standard-code that conforms to the Google C++ Style Guide</li>
@@ -46,7 +46,7 @@ Demonstrates an understanding of:
   <li>Data structures, particularly binary trees and multisets</li>
 </ul>
 
-# Example
+## Example
 $ ./prime_factors 4410 all </br>
 2 (x1), 3 (x2), 5 (x1), 7 (x2), </br>
 $ ./prime_factors 4410 min </br>
